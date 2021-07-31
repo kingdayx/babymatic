@@ -38,6 +38,7 @@ export default function Nav() {
   const handleConnect = async () => {
     const provider = await web3Modal.connect();
     const web3 = new Web3(provider);
+    console.log("connect to metamask", provider )
   }
   
   return (
