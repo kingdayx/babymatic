@@ -1,0 +1,84 @@
+html {
+  background-color: #1a293e;
+}
+.head {
+  display: flex;
+  text-transform: uppercase;
+  color: white;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .head {
+    font-size: 15px !important;
+  }
+}
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #081a2e;
+  border-radius: 20px;
+  padding: 16px 20px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 14px;
+  min-height: 210px;
+  position: relative;
+  margin: 0 10px 0 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  max-width: 220px !important;
+}
+.hold {
+  color: white;
+  text-transform: uppercase;
+}
+.info {
+  color: #bfc3c9;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
+}
+.buy {
+  margin-top: 20px !important;
+  width: 210px;
+  border: 1px solid purple;
+  margin: 7px 36px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  background: #081a2e;
+  text-align: center;
+
+  -webkit-mask: url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+  mask: url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .div1 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+html {
+  overflow: hidden;
+}

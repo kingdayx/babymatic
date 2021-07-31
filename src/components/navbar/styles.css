@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #081a2e;
+  height: 60px;
+  border-bottom: 6px solid purple;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  margin-top: -15px;
+}
+.icons {
+  margin-top: 10px;
+  text-align: center;
+}
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 21px;
+}
+.icons {
+  margin-top: 18px;
+  padding: 0 10px 0 10px;
+}
+.telegram1 {
+  padding: 0 2px 0 2px;
+}
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #25364d;
+  text-align: center;
+  font-size: 14px;
+  padding: 3px 14px;
+  margin-left: 10px;
+  height: 30px;
+  margin-top: 10px;
+}
+html {
+  margin: 0;
+}
+.wallet {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.logo {
+  color: white;
+  margin: 5px 0 5px 20px;
+}
+.logoHead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
